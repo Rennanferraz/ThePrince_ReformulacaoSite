@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="referrer" content="no-referrer">
+    <title>Página não encontrada · The Prince</title>
+    <style>
+        html {
+            color-scheme: light
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+            background: #F4F2ED;
+            color: #142438;
+            font: 17px/1.65 system-ui, sans-serif;
+            min-height: 100svh;
+            display: grid;
+            place-items: center;
+            padding: 24px
+        }
+
+        main {
+            max-width: 580px;
+            background: white;
+            border: 1px solid #D4DAE0;
+            border-radius: 22px;
+            padding: clamp(24px, 6vw, 48px)
+        }
+
+        p {
+            margin: 16px 0
+        }
+
+        h1 {
+            color: #234D7C;
+            line-height: 1.2;
+            font-size: 36px;
+            margin: 0
+        }
+
+        small {
+            font-weight: 600;
+            color: #234D7C
+        }
+
+        a {
+            display: inline-flex;
+            align-items: center;
+            min-height: 48px;
+            color: white;
+            background: #234D7C;
+            border-radius: 11px;
+            padding: 12px 20px;
+            margin-top: 12px;
+            text-decoration: none;
+            font-weight: 600
+        }
+
+        a:focus-visible {
+            outline: 3px solid #234D7C;
+            outline-offset: 5px
+        }
+    </style>
+</head>
+
+<body>
+    <main><small>THE PRINCE · PRÉVIA DE DESIGN</small>
+        <h1>Vamos voltar ao início?</h1>
+        <p>Este endereço não faz parte da proposta. A página inicial reúne os serviços e o acesso demonstrativo ao
+            curso.</p><a id="go-home" href="./">Voltar à proposta</a><noscript>
+            <p>Use o endereço principal enviado para acessar a proposta.</p>
+        </noscript>
+    </main>
+    <script>'use strict'; (() => { const p = location.pathname.split('/').filter(Boolean); const project = /\.github\.io$/i.test(location.hostname) && p.length > 0; document.getElementById('go-home').href = project ? '/' + encodeURIComponent(p[0]) + '/' : './'; })();</script>
+</body>
+
+</html>

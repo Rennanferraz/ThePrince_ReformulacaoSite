@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="noindex, nofollow" name="robots" />
+    <meta content="#F4F2ED" name="theme-color" />
+    <title>The Prince — Guia visual da proposta</title>
+    <meta content="no-referrer" name="referrer" />
+    <meta
+        content="Prévia de design da The Prince para avaliação. Acesso do aluno demonstrativo; não é o site de produção."
+        name="description" />
+    <!--Prévia pública de design. Sem autenticação real, backend ou persistência de dados do formulário.-->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="anonymous" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link href="assets/design-system.css" rel="stylesheet" />
+    <link href="assets/favicon.png" rel="icon" sizes="96x96" type="image/png" />
+</head>
+
+<body class="ds-guide">
+    <aside aria-label="Navegação da proposta" class="publish-review-bar"><span>Guia visual · Design System v0.1</span><a
+            href="./">Voltar ao site</a></aside>
+    <a class="skip" href="#ds-main">Ir para o conteúdo</a>
+    <header class="ds-top">
+        <div class="ds-shell"><a aria-label="The Prince — guia de interface" class="ds-brand" href="#ds-main"><img
+                    alt="The Prince" height="311" src="assets/logo-the-prince.png" width="360" /><span>Guia de
+                    interface</span></a>
+            <nav aria-label="Seções do Design System"><a href="#cores">Cores</a><a href="#tipografia">Tipografia</a><a
+                    href="#componentes">Componentes</a><a href="#ilustracoes">Ilustrações</a><a
+                    href="#fluxos">Fluxos</a></nav>
+        </div>
+    </header>
+    <main id="ds-main">
+        <div class="ds-shell">
+            <section class="ds-hero">
+                <div>
+                    <p class="ds-kicker">The Prince · Design System v0.1</p>
+                    <h1>Uma linguagem.<br />Muitos caminhos.</h1>
+                    <p class="ds-intro">A linguagem proposta para a The Prince, organizada em fundamentos, componentes e
+                        regras para as próximas páginas.</p>
+                    <div class="ds-status"><span>Base: proposta da home</span><span>Guia visual +
+                            especificação</span><span class="pending">Fonte de títulos a decidir</span></div>
+                </div>
+                <div aria-hidden="true" class="art">
+                    <div class="sheet">
+                        <div class="sheet-head"><svg class="icon" viewBox="0 0 24 24">
+                                <path
+                                    d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h5">
+                                </path>
+                            </svg>Palavras que conectam</div>
+                        <div class="line accent"></div>
+                        <div class="line"></div>
+                        <div class="line mid"></div>
+                        <div class="line"></div>
+                        <div class="line short"></div>
+                    </div>
+                    <div class="bubble bubble-main">Olá.<small>A conversa começa aqui.</small></div>
+                    <div class="bubble bubble-hello" lang="en">Hello.</div>
+                    <div class="bubble bubble-bonjour" lang="fr">Bonjour.</div>
+                </div>
+            </section>
+            <div class="ds-overview">
+                <article>
+                    <h2>Orientar a escolha</h2>
+                    <p>Aulas e traduções com caminhos próprios, sem esconder os demais serviços.</p>
+                </article>
+                <article>
+                    <h2>Preservar a linguagem</h2>
+                    <p>Azul, amarelo, respiro e ilustrações de conversa e documentos. Sem uma nova identidade.</p>
+                </article>
+                <article>
+                    <h2>Reutilizar com critério</h2>
+                    <p>Regras para o que já existe. Novos componentes entram quando as páginas precisarem.</p>
+                </article>
+            </div>
+        </div>
+        <section class="ds-section white" id="cores">
+            <div class="ds-shell">
+                <div class="ds-heading">
+                    <h2>Cores com função.</h2>
+                    <p>Os valores vêm da proposta da home. A mesma cor pode exercer funções distintas, nomeadas para
+                        manter a consistência.</p>
+                </div>
+                <div class="swatch-grid">
+                    <article class="swatch">
+                        <div class="swatch-color" style="background:#234D7C;color:white"><span>#234D7C</span></div>
+                        <h3>Azul principal</h3>
+                        <p>Ações, títulos e seção de traduções</p>
+                    </article>
+                    <article class="swatch">
+                        <div class="swatch-color" style="background:#DDEFF7;color:#142438"><span>#DDEFF7</span></div>
+                        <h3>Azul de apoio</h3>
+                        <p>Seleção e áreas de apoio</p>
+                    </article>
+                    <article class="swatch">
+                        <div class="swatch-color" style="background:#F3A21B;color:#142438"><span>#F3A21B</span></div>
+                        <h3>Amarelo</h3>
+                        <p>Acentos e ação sobre azul</p>
+                    </article>
+                    <article class="swatch">
+                        <div class="swatch-color" style="background:#F4F2ED;color:#142438"><span>#F4F2ED</span></div>
+                        <h3>Fundo claro</h3>
+                        <p>Base das páginas</p>
+                    </article>
+                    <article class="swatch">
+                        <div class="swatch-color" style="background:#FFFFFF;color:#142438"><span>#FFFFFF</span></div>
+                        <h3>Branco</h3>
+                        <p>Superfícies e conteúdo</p>
+                    </article>
+                    <article class="swatch">
+                        <div class="swatch-color" style="background:#142438;color:white"><span>#142438</span></div>
+                        <h3>Texto</h3>
+                        <p>Leitura principal</p>
+                    </article>
+                </div>
+                <div class="contrast-row">
+                    <div class="contrast"><span class="contrast-sample" style="background:#234D7C;color:white">Aa</span>
+                        <p><strong>8,66:1</strong>Branco sobre azul</p>
+                    </div>
+                    <div class="contrast"><span class="contrast-sample"
+                            style="background:#F3A21B;color:#142438">Aa</span>
+                        <p><strong>7,46:1</strong>Texto escuro sobre amarelo</p>
+                    </div>
+                    <div class="contrast"><span class="contrast-sample"
+                            style="background:#F4F2ED;color:#142438">Aa</span>
+                        <p><strong>14,02:1</strong>Texto sobre fundo claro</p>
+                    </div>
+                </div>
+                <p class="ds-caption">Cálculos locais entre cores sólidas, não certificação da interface. Amarelo não
+                    recebe texto branco: contraste aproximado de 2,10:1.</p>
+                <div class="ds-note">Funções de apoio: texto secundário <strong>#566577</strong>, borda de campo
+                    <strong>#7A8B9C</strong> e erro <strong>#A82424</strong>. Erros também têm texto; seleção também tem
+                    borda e controle marcado.</div>
+            </div>
+        </section>
+        <section class="ds-section" id="tipografia">
+            <div class="ds-shell">
+                <div class="ds-heading">
+                    <h2>Clareza, com personalidade.</h2>
+                    <p>A escala e os pesos preservam a hierarquia da página. A ilustração assume a expressão mais
+                        lúdica; a leitura permanece objetiva.</p>
+                </div>
+                <div class="type-grid">
+                    <div><span class="ds-example-label">Inter · referência visual desta apresentação</span>
+                        <p class="type-display">Novas conversas.<br />Novos caminhos.</p>
+                        <p class="type-body">Aulas de idiomas, traduções e serviços para o próximo capítulo da sua
+                            história. Escolha o que você procura e comece a conversa.</p>
+                    </div>
+                    <dl class="type-scale">
+                        <div>
+                            <dt>Abertura</dt>
+                            <dd>Até 66 px · peso 600</dd>
+                        </div>
+                        <div>
+                            <dt>Título de seção</dt>
+                            <dd>42 / 37 / 33 px</dd>
+                        </div>
+                        <div>
+                            <dt>Texto principal</dt>
+                            <dd>16 px · entrelinha 1,6</dd>
+                        </div>
+                        <div>
+                            <dt>Texto da abertura</dt>
+                            <dd>19 / 16 px · entrelinha 1,7</dd>
+                        </div>
+                        <div>
+                            <dt>Controles</dt>
+                            <dd>13–14 px · peso 600</dd>
+                        </div>
+                        <div>
+                            <dt>Ajuda e notas</dt>
+                            <dd>11–12 px · revisão mobile pendente</dd>
+                        </div>
+                    </dl>
+                </div>
+                <div class="ds-note pending"><strong>Decisão nominal ainda aberta.</strong> Poppins foi prevista para
+                    títulos, mas as capturas avaliadas usaram Inter. Esta prévia publicada carrega Inter para preservar
+                    esse resultado visual. A definição nominal do token de títulos no sistema final continua pendente;
+                    não foi consolidada como uma nova decisão de identidade.</div>
+            </div>
+        </section>
+        <section class="ds-section white" id="espacamento">
+            <div class="ds-shell">
+                <div class="ds-heading">
+                    <h2>Espaço que organiza.</h2>
+                    <p>Ritmo extraído da home: largura máxima de 1.200 px; seções de 96, 76 ou 60 px; margens de 20 px
+                        no recorte mobile de 390 px.</p>
+                </div>
+                <div class="space-grid">
+                    <div class="space-item"><span class="space-bar" style="height:4px"></span><span>4</span></div>
+                    <div class="space-item"><span class="space-bar" style="height:8px"></span><span>8</span></div>
+                    <div class="space-item"><span class="space-bar" style="height:12px"></span><span>12</span></div>
+                    <div class="space-item"><span class="space-bar" style="height:16px"></span><span>16</span></div>
+                    <div class="space-item"><span class="space-bar" style="height:20px"></span><span>20</span></div>
+                    <div class="space-item"><span class="space-bar" style="height:24px"></span><span>24</span></div>
+                    <div class="space-item"><span class="space-bar" style="height:32px"></span><span>32</span></div>
+                    <div class="space-item"><span class="space-bar" style="height:40px"></span><span>40</span></div>
+                    <div class="space-item"><span class="space-bar" style="height:48px"></span><span>48</span></div>
+                    <div class="space-item"><span class="space-bar" style="height:64px"></span><span>64</span></div>
+                    <div class="space-item"><span class="space-bar" style="height:96px"></span><span>96</span></div>
+                </div>
+                <div class="ds-three">
+                    <div>
+                        <h3>Controles</h3>
+                        <p class="ds-caption">Raio de 10–12 px. Altura padrão de botão: 49 px. Meta de área de toque: 44
+                            px nos controles principais.</p>
+                    </div>
+                    <div>
+                        <h3>Cartões e painéis</h3>
+                        <p class="ds-caption">Raio de 22 px em cartões e 26 px em painéis. Bordas leves; sombra
+                            reservada para sobreposição.</p>
+                    </div>
+                    <div>
+                        <h3>Responsividade</h3>
+                        <p class="ds-caption">Escolhas vêm antes da ilustração. O menu compacta até 1.100 px; o acesso
+                            do aluno vira uma coluna até 800 px.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ds-section" id="componentes">
+            <div class="ds-shell">
+                <div class="ds-heading">
+                    <h2>Ações que dizem<br />o próximo passo.</h2>
+                    <p>Variantes têm uma finalidade, não apenas outra cor. Os exemplos de estado abaixo são visuais e
+                        não enviam nada.</p>
+                </div>
+                <div class="ds-three">
+                    <article class="specimen">
+                        <h3>Principal</h3>
+                        <div class="button-set"><button class="button ds-illustrative" type="button">Conhecer as aulas
+                                <svg aria-hidden="true" class="icon" viewBox="0 0 24 24">
+                                    <path d="M5 12h14m-6-6 6 6-6 6"></path>
+                                </svg></button></div>
+                        <p class="ds-caption">Ação predominante em fundo claro.</p>
+                    </article>
+                    <article class="specimen">
+                        <h3>Secundária</h3>
+                        <div class="button-set"><button class="button header-cta ds-illustrative" type="button">Fale com
+                                a The Prince</button></div>
+                        <p class="ds-caption">Alternativa de menor destaque visual.</p>
+                    </article>
+                    <article class="specimen dark">
+                        <h3>Sobre azul</h3>
+                        <div class="button-set"><button class="button button-yellow ds-illustrative"
+                                type="button">Solicitar orçamento</button></div>
+                        <p class="ds-caption">Amarelo com texto escuro; não criar uma nova marca por serviço.</p>
+                    </article>
+                </div>
+                <div class="state-grid">
+                    <div class="state-cell">
+                        <p>Padrão</p><button class="button ds-illustrative" type="button">Continuar</button>
+                    </div>
+                    <div class="state-cell">
+                        <p>Hover simulado</p><button class="button sample-hover ds-illustrative"
+                            type="button">Continuar</button>
+                    </div>
+                    <div class="state-cell">
+                        <p>Foco simulado</p><button class="button sample-focus ds-illustrative"
+                            type="button">Continuar</button>
+                    </div>
+                    <div class="state-cell">
+                        <p>Pressionado proposto</p><button class="button sample-pressed ds-illustrative"
+                            type="button">Continuar</button>
+                    </div>
+                    <div class="state-cell">
+                        <p>Desabilitado</p><button class="button" disabled="" type="button">Continuar</button>
+                    </div>
+                </div>
+                <p class="ds-caption">Pressionado: proposta documentada, ainda não aplicada globalmente na home. Não há
+                    operação assíncrona, portanto não foi criado um estado artificial de carregamento.</p>
+                <p aria-live="polite" class="ds-live" id="ds-action-status"></p>
+                <div class="ds-heading" style="margin-top:35px">
+                    <h2>Escolhas por intenção.</h2>
+                    <p>Componentes extraídos da página real. A ação preserva o idioma ou serviço no contato.</p>
+                </div>
+                <div class="ds-two">
+                    <article class="specimen">
+                        <h3 class="ds-subhead">LanguageCard / idioma</h3><a class="language-card"
+                            data-ds-subject="Aulas de inglês" href="#ds-form"><span aria-hidden="true"
+                                class="word-bubble" lang="en">Hello.</span>
+                            <h3>Inglês</h3><span class="card-link">Conversar sobre as aulas <svg aria-hidden="true"
+                                    class="icon" viewBox="0 0 24 24">
+                                    <path d="M5 12h14m-6-6 6 6-6 6"></path>
+                                </svg></span>
+                        </a>
+                        <p class="ds-caption">Balão, nome do idioma e próximo passo. Clique para preencher o exemplo de
+                            contato abaixo.</p>
+                    </article>
+                    <article class="specimen dark translations">
+                        <h3 class="ds-subhead">TranslationItem / modalidade</h3><a class="translation-card"
+                            data-ds-subject="Tradução juramentada" href="#ds-form"><span class="service-icon"><svg
+                                    aria-hidden="true" class="icon" viewBox="0 0 24 24">
+                                    <path
+                                        d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h5">
+                                    </path>
+                                </svg></span>
+                            <div>
+                                <h3>Juramentada</h3>
+                                <p>Informe a finalidade e onde o documento será apresentado.</p><span
+                                    class="card-link">Consultar orçamento <svg aria-hidden="true" class="icon"
+                                        viewBox="0 0 24 24">
+                                        <path d="M5 12h14m-6-6 6 6-6 6"></path>
+                                    </svg></span>
+                            </div>
+                        </a>
+                        <p class="ds-caption">Não repetir a aparência do cartão de aulas: a jornada e o conteúdo são
+                            diferentes.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="ds-section white" id="ds-form">
+            <div class="ds-shell">
+                <div class="ds-heading">
+                    <h2>Contato sem reiniciar<br />a conversa.</h2>
+                    <p>Experimente selecionar um serviço, mudar o canal e revisar. Este exemplo não abre aplicativos; a
+                        página inicial contém os links de encaminhamento.</p>
+                </div>
+                <div class="ds-two">
+                    <div class="specimen">
+                        <form id="ds-demo-form" novalidate="">
+                            <fieldset class="send-options">
+                                <legend>Por onde prefere enviar?</legend>
+                                <div class="channel-grid"><label class="channel-option"><input checked=""
+                                            name="ds-channel" type="radio"
+                                            value="WhatsApp" /><span>WhatsApp</span></label><label
+                                        class="channel-option"><input name="ds-channel" type="radio"
+                                            value="E-mail" /><span>E-mail</span></label></div>
+                            </fieldset>
+                            <div class="field"><label for="ds-subject">Assunto</label><select id="ds-subject"
+                                    name="ds-subject">
+                                    <option>Aulas de inglês</option>
+                                    <option>Aulas de francês</option>
+                                    <option>Tradução juramentada</option>
+                                    <option>Contato geral</option>
+                                </select><small aria-live="polite" id="ds-context">O assunto permanece editável.</small>
+                            </div>
+                            <div class="field"><label for="ds-name">Seu nome <span>(obrigatório)</span></label><input
+                                    aria-describedby="ds-name-error" autocomplete="off" id="ds-name" maxlength="100"
+                                    name="ds-name" placeholder="Ex.: Ana…" required="" type="text" /><span
+                                    class="field-error" hidden="" id="ds-name-error">Informe um nome fictício para
+                                    testar.</span></div>
+                            <div class="field"><label for="ds-message">Sua mensagem
+                                    <span>(opcional)</span></label><textarea autocomplete="off" id="ds-message"
+                                    maxlength="1500" name="ds-message" placeholder="Ex.: gostaria de conhecer as aulas…"
+                                    rows="3"></textarea></div><button class="button submit-preview"
+                                type="submit">Revisar exemplo <svg aria-hidden="true" class="icon" viewBox="0 0 24 24">
+                                    <path d="M5 12h14m-6-6 6 6-6 6"></path>
+                                </svg></button>
+                            <p class="ds-caption">Demonstração isolada: não abre aplicativo nem persiste os campos.</p>
+                            <p aria-live="polite" class="ds-live" id="ds-form-status"></p>
+                        </form>
+                    </div>
+                    <div class="ds-panel">
+                        <h3>Estados com orientação</h3>
+                        <div class="field ds-error-demo"><label for="ds-error-sample">Nome — exemplo de
+                                erro</label><input aria-describedby="ds-error-note" aria-invalid="true"
+                                id="ds-error-sample" name="ds-error-sample" readonly="" type="text" /><span
+                                class="field-error" id="ds-error-note">Informe seu nome para continuar.</span></div>
+                        <p class="ds-review-copy">O erro tem mensagem junto ao campo e foco no primeiro ponto a
+                            corrigir. Placeholder não substitui rótulo. O assunto vindo da oferta pode ser alterado.</p>
+                        <div class="ds-note"><strong>Revisar não é enviar.</strong> Mensagem preparada → abertura do
+                            aplicativo → confirmação do visitante. Nunca exibir “enviado com sucesso” só porque um link
+                            foi aberto.</div>
+                        <div class="ds-note pending"><strong>Alternativa fora deste protótipo:</strong> enviar
+                            diretamente pelo site para o e-mail da empresa exige outra solução. O percurso atual abre o
+                            aplicativo de e-mail.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ds-section" id="navegacao">
+            <div class="ds-shell">
+                <div class="ds-heading">
+                    <h2>Utilidades com o mesmo cuidado.</h2>
+                    <p>FAQ, acesso do aluno e links de apoio pertencem ao sistema, sem competir com as duas frentes
+                        comerciais.</p>
+                </div>
+                <div class="ds-two">
+                    <div class="specimen">
+                        <h3>FAQItem / expansão</h3>
+                        <div class="faq ds-faq">
+                            <details>
+                                <summary>Posso alterar o assunto antes de enviar? <svg aria-hidden="true" class="icon"
+                                        viewBox="0 0 24 24">
+                                        <path d="M12 5v14M5 12h14"></path>
+                                    </svg></summary>
+                                <div class="faq-answer">Sim. O assunto traz o contexto da escolha, mas permanece
+                                    editável no formulário de demonstração.</div>
+                            </details>
+                            <details>
+                                <summary>A revisão já envia a mensagem? <svg aria-hidden="true" class="icon"
+                                        viewBox="0 0 24 24">
+                                        <path d="M12 5v14M5 12h14"></path>
+                                    </svg></summary>
+                                <div class="faq-answer">Não. A revisão prepara o texto. Na home, você escolhe abrir o
+                                    aplicativo e confirma o envio por lá.</div>
+                            </details>
+                        </div>
+                        <h3 style="margin-top:30px">Canais e perfis</h3>
+                        <div class="ds-social-demo"><a class="" href="https://www.instagram.com/the.princeschool"
+                                referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">Instagram da The
+                                Prince<span class="sr-only"> (abre em outra aba)</span></a><a class=""
+                                href="https://www.youtube.com/@ThePrinceSchool" referrerpolicy="no-referrer"
+                                rel="noopener noreferrer" target="_blank">YouTube da The Prince<span class="sr-only">
+                                    (abre em outra aba)</span></a><a class=""
+                                href="https://www.linkedin.com/in/ali-enver-ferdi-kulak-294988281/"
+                                referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">LinkedIn de
+                                Ali<span class="sr-only"> (abre em outra aba)</span></a></div>
+                        <p class="ds-caption">Instagram e YouTube são canais indicados para a marca. O LinkedIn recebido
+                            é individual e recebe o nome de Ali. Links externos abrem somente por clique.</p>
+                    </div>
+                    <div class="specimen">
+                        <div class="ds-route-head"><strong>Área do aluno</strong><span class="demo-badge">Somente
+                                demonstração</span></div>
+                        <div class="login-panel ds-login-sample">
+                            <h3>Seu próximo passo<br />no francês.</h3>
+                            <p class="demo-account"><strong>Conta fictícia</strong><span>O layout não autentica nem
+                                    restringe o curso.</span></p>
+                            <div class="field"><label for="ds-login-email">E-mail de demonstração</label><input
+                                    autocomplete="off" id="ds-login-email" name="ds-login-email" readonly=""
+                                    spellcheck="false" type="email" value="aluno@exemplo.test" /></div>
+                            <div class="field"><label for="ds-password">Senha de demonstração</label>
+                                <div class="password-wrap"><input autocomplete="off" id="ds-password" name="ds-password"
+                                        readonly="" type="password" value="demonstracao" /><button
+                                        aria-label="Mostrar senha de demonstração" aria-pressed="false"
+                                        class="password-toggle" id="ds-toggle-password" type="button"><svg
+                                            aria-hidden="true" class="icon" viewBox="0 0 24 24">
+                                            <path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Z"></path>
+                                            <circle cx="12" cy="12" r="3"></circle>
+                                        </svg></button></div>
+                            </div><button class="button submit-preview" id="ds-access-info" type="button">Ver regra de
+                                acesso <svg aria-hidden="true" class="icon" viewBox="0 0 24 24">
+                                    <path d="M5 12h14m-6-6 6 6-6 6"></path>
+                                </svg></button>
+                            <p class="ds-caption">Neste guia, o botão explica o fluxo. Na página inicial, o acesso de
+                                demonstração abre o material de francês.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ds-section white" id="ilustracoes">
+            <div class="ds-shell">
+                <div class="ds-heading">
+                    <h2>Uma família de ilustrações.</h2>
+                    <p>O elemento expressivo do projeto: conversas, documentos e aprendizagem. Mesma linguagem, com
+                        composições adequadas a cada contexto.</p>
+                </div>
+                <div class="art-showcase">
+                    <article class="art-panel">
+                        <h3>Conversa / abertura</h3>
+                        <div aria-hidden="true" class="art">
+                            <div class="sheet">
+                                <div class="sheet-head"><svg class="icon" viewBox="0 0 24 24">
+                                        <path
+                                            d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h5">
+                                        </path>
+                                    </svg>Palavras que conectam</div>
+                                <div class="line accent"></div>
+                                <div class="line"></div>
+                                <div class="line mid"></div>
+                                <div class="line"></div>
+                                <div class="line short"></div>
+                            </div>
+                            <div class="bubble bubble-main">Olá.<small>A conversa começa aqui.</small></div>
+                            <div class="bubble bubble-hello" lang="en">Hello.</div>
+                            <div class="bubble bubble-bonjour" lang="fr">Bonjour.</div>
+                        </div>
+                        <p>Balão principal azul; acento amarelo; apoio azul-claro. As escolhas comerciais não dependem
+                            do texto decorativo.</p>
+                    </article>
+                    <article class="art-panel dark">
+                        <h3>Documentos / traduções</h3>
+                        <div aria-hidden="true" class="translation-art">
+                            <div class="translation-page source-page"><span class="paper-label">Texto de
+                                    origem</span><strong>Aa</strong><i></i><i></i><i></i></div><span
+                                class="translation-bridge">↔</span>
+                            <div class="translation-page target-page"><span class="paper-label">Outro
+                                    idioma</span><strong>Aa</strong><i></i><i></i><i></i></div>
+                        </div>
+                        <p>Documentos abstratos, sem selos, dados pessoais ou aparência de certificação real.</p>
+                    </article>
+                    <article class="art-panel">
+                        <h3>Palavras / institucional</h3>
+                        <div aria-hidden="true" class="about-art"><span
+                                class="about-word word-learn">Aprender.</span><span
+                                class="about-word word-understand">Compreender.</span><span
+                                class="about-word word-connect">Conectar.</span><span class="about-star">✦</span><span
+                                class="about-dot"></span></div>
+                        <p>Uma composição editorial, não mais uma grade de cartões ou uma fotografia sem autorização.
+                        </p>
+                    </article>
+                    <article class="art-panel">
+                        <h3>Aprendizagem / aluno</h3>
+                        <div aria-hidden="true" class="student-art">
+                            <div class="study-sheet">
+                                <div class="study-sheet-head"><svg aria-hidden="true" class="icon" viewBox="0 0 24 24">
+                                        <path d="M12 5v15m0-15C8 2 3 4 3 4v15s5-2 9 1m0-15c4-3 9-1 9-1v15s-5-2-9 1">
+                                        </path>
+                                    </svg><span>Seu material de francês</span></div>
+                                <div class="study-sheet-word">Aa</div><i></i><i></i><i></i>
+                            </div>
+                            <div class="welcome-bubble">Bonjour.<small>Que bom ter você por aqui.</small></div>
+                            <div class="lesson-tag">On y va!</div>
+                            <div class="study-spark">✦</div>
+                        </div>
+                        <p>No acesso mobile, o painel funcional tem prioridade e esta ilustração lateral é retirada.</p>
+                    </article>
+                </div>
+                <div class="ds-note">Usar em áreas-chave, não em todos os blocos. Rotações discretas, caudas curtas,
+                    cantos suaves e sombras leves. Elementos decorativos ficam fora da leitura assistiva; a informação
+                    importante existe em texto real.</div>
+            </div>
+        </section>
+        <section class="ds-section" id="fluxos">
+            <div class="ds-shell">
+                <div class="ds-heading">
+                    <h2>O comportamento também<br />faz parte do design.</h2>
+                    <p>Três percursos documentados, sem prometer autenticação, recebimento ou uma integração que não foi
+                        implementada.</p>
+                </div>
+                <h3>Interessado em aulas ou serviços</h3>
+                <div class="flow-row">
+                    <div class="flow-step"><small>1 · Escolher</small><strong>Idioma ou modalidade</strong>
+                        <p>Entradas com intenção clara.</p>
+                    </div>
+                    <div class="flow-step"><small>2 · Preparar</small><strong>Assunto com contexto</strong>
+                        <p>Campo editável; nome e objetivo.</p>
+                    </div>
+                    <div class="flow-step"><small>3 · Revisar</small><strong>Mensagem e destinatário</strong>
+                        <p>Nada enviado nesta etapa.</p>
+                    </div>
+                    <div class="flow-step"><small>4 · Continuar</small><strong>WhatsApp ou e-mail</strong>
+                        <p>O visitante confirma no aplicativo.</p>
+                    </div>
+                </div>
+                <div class="ds-note"><strong>Aluno:</strong> Área do aluno → tela simulada → curso de francês em outra
+                    aba. Não existe uma sessão autenticada ou proteção do conteúdo neste protótipo.</div>
+                <div class="ds-two" style="margin-top:30px">
+                    <div>
+                        <h3>Quando reutilizar</h3>
+                        <ul class="rule-list">
+                            <li>Reaproveitar tokens, controles e ilustrações antes de criar um novo elemento.</li>
+                            <li>Adaptar conteúdo e ordem às perguntas de cada serviço.</li>
+                            <li>Documentar uma variação nova sem sobrescrever o que já está aprovado.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>O que não antecipar</h3>
+                        <ul class="rule-list">
+                            <li>Checkout, cadastro, painel de progresso ou biblioteca de aplicativo.</li>
+                            <li>Depoimentos, parceiros, prazos ou resultados não confirmados.</li>
+                            <li>Estados de sucesso de envio ou autenticação cenográfica apresentados como reais.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ds-section white" id="inventario">
+            <div class="ds-shell">
+                <div class="ds-heading">
+                    <h2>Componentes documentados.</h2>
+                    <p>Inventário desta primeira versão. Cada item tem anatomia, regras de uso e mapeamento na
+                        especificação Markdown.</p>
+                </div>
+                <div aria-label="Inventário de componentes; tabela com rolagem horizontal em telas pequenas"
+                    class="ds-table-wrap" role="region" tabindex="0">
+                    <table class="ds-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Componente</th>
+                                <th scope="col">Variantes</th>
+                                <th scope="col">Estados pertinentes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Button</th>
+                                <td>primary / secondary / accent / text</td>
+                                <td>padrão, hover, foco, pressionado; desabilitado quando pertinente</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">TextLink</th>
+                                <td>interno / externo / contextual</td>
+                                <td>padrão, hover, foco</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">HeaderNavigation</th>
+                                <td>desktop / menu compacto</td>
+                                <td>fechado, aberto, foco, Escape</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">ServiceRoute</th>
+                                <td>aulas / traduções</td>
+                                <td>padrão, hover/foco do CTA</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">LanguageCard</th>
+                                <td>idioma / objetivo</td>
+                                <td>padrão, hover, foco</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">TranslationItem</th>
+                                <td>modalidade</td>
+                                <td>padrão, hover, foco</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">SecondaryService</th>
+                                <td>negócios / formação / intercâmbio / jurídico</td>
+                                <td>padrão, hover, foco</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Field</th>
+                                <td>texto / select / textarea / senha demonstrativa</td>
+                                <td>vazio, preenchido, foco, erro, somente leitura</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">ChannelSelector</th>
+                                <td>WhatsApp / e-mail</td>
+                                <td>não selecionado, selecionado, foco, hover</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">ContactComposer</th>
+                                <td>contextual / geral</td>
+                                <td>inicial, assunto pré-preenchido, inválido, revisão</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">MessageReview</th>
+                                <td>WhatsApp / e-mail</td>
+                                <td>pronta, edição, cópia, fallback de cópia, destino indisponível</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Dialog</th>
+                                <td>mensagem / informativo</td>
+                                <td>aberto, fechado, Escape, retorno de foco</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">FAQItem</th>
+                                <td>padrão</td>
+                                <td>fechado, aberto, foco</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">StudentAccess</th>
+                                <td>desktop / mobile</td>
+                                <td>senha oculta/visível, ajuda, recuperação demonstrativa</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">ContactAndSocialLinks</th>
+                                <td>canal institucional / perfil profissional</td>
+                                <td>padrão, hover, foco</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Footer</th>
+                                <td>desktop / mobile</td>
+                                <td>padrão, foco dos links</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Illustration</th>
+                                <td>conversa / documento / institucional / aluno</td>
+                                <td>estática; puramente decorativa</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="ds-note pending"><strong>Estado da entrega:</strong> guia visual v0.1, ainda não biblioteca
+                    nativa do Figma. A fonte definitiva dos títulos e os textos institucionais continuam em validação.
+                </div>
+                <p class="ds-reference">Referências do projeto: frontend-design (Anthropic), web-design-guidelines
+                    (Vercel), ui-ux-pro-max (Next Level Builder) e WCAG 2.2. Uso documental; esta prévia não representa
+                    certificação de acessibilidade ou implementação de produção.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="ds-meta">
+        <div class="ds-shell"><span>The Prince · PlaneSolution · Design System v0.1</span><span>The Prince · proposta
+                visual para avaliação.</span></div>
+    </footer>
+    <dialog aria-labelledby="ds-dialog-title" id="ds-dialog">
+        <div class="dialog-top">
+            <h2 id="ds-dialog-title">Revisão</h2><button aria-label="Fechar revisão" class="close"
+                type="button">×</button>
+        </div>
+        <div class="dialog-body" id="ds-dialog-body"></div>
+    </dialog>
+    <script defer="" src="assets/design-system.js"></script>
+</body>
+
+</html>
